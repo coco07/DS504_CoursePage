@@ -18,6 +18,7 @@ for (let i = 0; i < materials.length; i++) {
     th1.innerText = x[0];
     link.innerText = x[1];
     link.setAttribute("href", x[2]);
+    link.setAttribute("download", "");
     tr.appendChild(th1);
     th2.appendChild(link);
     tr.appendChild(th2);
