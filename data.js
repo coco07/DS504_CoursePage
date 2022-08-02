@@ -3,6 +3,7 @@ var materials = [
   ["02/08/2022", "Material 1", "https://github.com/IITBHILAI-NLP/DS503_CoursePage/raw/gh-pages/Atharva.png"],
   ["03/08/2022", "Material 2", "https://github.com/IITBHILAI-NLP/DS503_CoursePage/raw/gh-pages/Atharva.png"],
   ["04/08/2022", "Material 3", "https://github.com/IITBHILAI-NLP/DS503_CoursePage/raw/gh-pages/Atharva.png"],
+  ["05/08/2022", "Material 4", "https://github.com/IITBHILAI-NLP/DS503_CoursePage/raw/gh-pages/Atharva.png"],
 ]
 
 var announcements = [
