@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+#title{
+  margin: 20px 0 15px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size:1.8em;
+}
+
+#iit_logo{
+  width: 10%;
+  margin-bottom: 10px;
+  max-width: 90px;
+  min-width: 50px;
+}
+
+#subtitle{
+  text-align: center;
+  font-size:1.4em;
+}
+
+#container{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#lpanel, #rpanel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+#c_material{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#material_table{
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 20vw;
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th{
+  height: 35px;
+  text-align: center;
+}
+
+.week_title{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#cpanel{
+  width: 50%;
+}
+
+#inst_container, #course_container{
+  border: 1px solid black;
+  padding: 0 10px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+}
+
+#all_inst{
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#inst_title, #course_title{
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+i{
+  margin-right: 8px;
+  color: #550707;
+}
+
+.inst_elem{
+  width: 7.5vw;
+  margin: 10px;
+  min-width: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inst_elem img{
+  margin: 0 1vw;
+  margin-bottom: 8px;
+  width: 7.5vw;
+  min-width: 80px;
+  border-radius: 50%;
+}
+
+.inst_elem p{
+  text-align: center;
+}
+
+#timing{
+  padding: 12px 18px;
+  width: 13vw;
+  min-width: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+}
+
+#t_title{
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.timing_elem{
+  font-weight: bold;
+  margin-top: 4px;
+  font-size: 0.9em;
+}
+
+#annun{
+  border: 1px solid black;
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+}
+
+#annun > p{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.ann_elem{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ann_elem_title{
+  margin-top: 5px;
+  margin-left: 15px;
+}
+hr{
+  margin: 5px 5%;
+  width: 90%;
+}
+.ann_elem_body{
+  margin-left: 15px;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 940px) {
+  #container{
+    flex-direction: row;
+  }
+  #lpanel, #cpanel, #rpanel{
+    width: 100vw;
+  }
+  #c_material{
+    margin-top: 10px;
+  }
+  #cpanel{
+    padding: 0 10vw;
+  }
+  #material_table{
+    width: 80vw;
+    margin-bottom: 30px;
+  }
+
+  #timing{
+    padding: 0;
+    width: 50vw;
+    padding-bottom: 5px;
+  }
+  #timing > p{
+    text-align: center;
+    min-width: 200px;
+    margin: 8px;
+  }
+
+  #annun{
+    width: 80vw;
+    margin-bottom: 30px;
+  }
+}
