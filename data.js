@@ -1,8 +1,7 @@
 var materials = [
   ["Week 1"],
-  ["02/08/2022", "Material 1", "[NLP] Natural Language Processing with PyTorch (2019).pdf"],
-  ["03/08/2022", "Material 2", "#"],
-  ["04/08/2022", "Material 3", "#"],
+  ["02/08/2022", "Introduction Slide", "NLP_intro.pdf"],
+  ["02/08/2022", "What is NLP", "What is NLP.pdf"],
 ]
 
 var announcements = [
