@@ -69,7 +69,7 @@ th{
   width: 50%;
 }
 
-#inst_container, #course_container{
+#inst_container, #course_container, #reference_container{
   border: 1px solid black;
   padding: 0 10px;
   border-radius: 15px;
@@ -84,7 +84,7 @@ th{
   justify-content: space-evenly;
 }
 
-#inst_title, #course_title{
+#inst_title, #course_title, #reference_title{
   margin-top: 10px;
   font-size: 1.5em;
   font-weight: bold;
@@ -117,6 +117,25 @@ i{
   text-align: center;
 }
 
+#course_data {
+  margin: 25px;
+}
+
+#course_data  li{
+  font-size: 1.2em;
+  }
+
+#reference_container li, #reference_container a{
+  font-size: 1.2em;
+}
+
+#reference_title{
+  margin-bottom: 25px;
+}
+
+#reference_container {
+  padding: 0 25px 25px 25px;
+}
 #timing{
   padding: 12px 18px;
   width: 13vw;
